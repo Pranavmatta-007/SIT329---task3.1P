@@ -1,5 +1,5 @@
-#ifndef TIMER_DEAKIN_H
-#define TIMER_DEAKIN_H
+#ifndef GPIO_TIMER_H
+#define TGPIO_TIMER_H
 
 class TIMER_DEAKIN {
 public:
