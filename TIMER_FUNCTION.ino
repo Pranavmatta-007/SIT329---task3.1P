@@ -2,7 +2,7 @@
 #include "GPIO_TIMER.h"
 
 GPIO_DEAKIN gpio;
-TIMER_DEAKIN timer;
+GPIO_TIMER timer;
 
 void setup() {
     gpio.Config_GPIO('A', 18, 'O');  // Configure pin A18 as output
