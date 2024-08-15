@@ -1,7 +1,7 @@
 #ifndef GPIO_TIMER_H
-#define TGPIO_TIMER_H
+#define GPIO_TIMER_H
 
-class TIMER_DEAKIN {
+class GPIO_TIMER {
 public:
     bool config_timer(uint8_t timerNum, uint16_t startCount, uint16_t endCount, uint8_t resolution);
     uint32_t getTC_count(uint8_t timerNum);
